@@ -1,12 +1,12 @@
 [package]
-name = "syntect-yew"
-version = "0.2.0"
+name = "katex-wasmbind"
+version = "0.1.0"
 authors = ["Aster <galaster@foxmail.com>"]
-description = "mast ast for basic arithmetic operations"
+description = "KaTeX Render for wasm bind"
 edition = "2018"
 license = "MPL-2.0"
 readme = "README.md"
-repository = "https://github.com/GalAster/math-ast"
+repository = "https://github.com/GalAster/katex-wasmbind"
 exclude = ["/tests/*", "/.idea/*", "/benches/*"]
 
 [dependencies]
@@ -19,8 +19,6 @@ features = ["serde-serialize"]
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.0"
-
-
 
 [lib]
 crate-type = ["cdylib", "rlib"]
