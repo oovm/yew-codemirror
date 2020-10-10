@@ -41,7 +41,7 @@ pub struct KaTeXOptions {
     /// Limit the number of macro expansions to the specified number.
     /// If set to `None`, the macro expander will try to fully expand as in LaTeX.
     maxExpand: i32,
-    ///strict mode
+    /// strict mode
     strict: String,
     /// Whether to trust users' input.
     /// Cannot be assigned at the same time with [`OptsBuilder::trust_callback`].
@@ -95,5 +95,23 @@ impl KaTeXOptions {
         };
         self.output = String::from(set);
         return true;
+    }
+    pub fn set_max_size(&mut self) -> bool {
+        unimplemented!()
+    }
+    pub fn set_max_expand(&mut self) -> bool {
+        unimplemented!()
+    }
+    pub fn set_strict_mode(&mut self) -> bool {
+        unimplemented!()
+    }
+    pub fn set_error_color(&mut self) -> bool {
+        unimplemented!()
+    }
+    pub fn set_macro_rules(&mut self) -> bool {
+        unimplemented!()
+    }
+    pub fn insert_macro_rule(&mut self) -> bool {
+        unimplemented!()
     }
 }
