@@ -1,7 +1,5 @@
 # KaTeX Wasmbind
 
-
-
 ## Basic
 
 Notice that this does not include css, so cdn still must be included.
@@ -22,3 +20,5 @@ fn main() {
 ```
 
 ## Todo list
+
+- [ ] Remove serde dependencies

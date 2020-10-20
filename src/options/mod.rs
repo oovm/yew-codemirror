@@ -4,7 +4,7 @@ use std::collections::HashMap;
 use wasm_bindgen::{prelude::*, JsValue};
 
 /// Output type from KaTeX.
-#[derive(Copy, Clone, Debug, Deserialize, Serialize)]
+#[derive(Copy, Clone, Debug, PartialEq, Deserialize, Serialize)]
 pub enum OutputType {
     /// Outputs KaTeX in HTML only.
     Html,

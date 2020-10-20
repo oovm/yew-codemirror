@@ -8,8 +8,8 @@
     try {
         const res = await service.build({
             entryPoints: ["./src/bind.ts"],
-            outfile: './src/katex.js',
-            format: 'cjs',
+            outfile: './src/katex.min.js',
+            format: 'esm',
             minify: true,
             bundle: true,
         })
